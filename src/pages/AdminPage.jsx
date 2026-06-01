@@ -192,7 +192,6 @@ export default function AdminPage() {
     <div className="stack-lg">
       <div>
         <h1>Trang quản trị</h1>
-        <p className="muted-text">Front-end này bám theo đúng các endpoint admin mà backend hiện có.</p>
       </div>
 
       {error && <div className="alert alert-error">{error}</div>}
