@@ -140,7 +140,6 @@ export default function BlogFormPage({ mode }) {
       <div className="row space-between wrap">
         <div>
           <h1>{isEdit ? 'Sửa blog' : 'Tạo blog mới'}</h1>
-          <p className="muted-text">Form này khớp với `CreateBlogRequest` và `UpdateBlogRequest` từ backend.</p>
         </div>
         <Link className="btn btn-outline" to="/my-blogs">
           Quay lại bài của tôi
